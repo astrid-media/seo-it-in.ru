@@ -23,7 +23,7 @@ Disallow: */ru/*
 Disallow: */en/*
 Disallow: /*?searchid=*
 Disallow: /?tp=1
-Disallow: /?
+
 
 User-agent: GoogleBot
 Disallow: /administrator/
