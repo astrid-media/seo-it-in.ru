@@ -1,0 +1,38 @@
+{
+    "name": "paginateTable",
+    "version": "1.7",
+    "title": "jQuery.paginateTable",
+    "author": {
+        "name": "Matt Page",
+        "url": "https://github.com/mattpage"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "MIT-LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.4"
+    },
+    "description": "A jQuery plugin for adding simple pagination to tables",
+    "keywords": [
+        "paginate",
+        "pagination",
+        "paging",
+        "tables",
+        "table"
+    ],
+    "homepage": "https://github.com/mattpage/jquery.paginateTable",
+    "contributors": [
+        { "name": "Greg Pedder" },
+        { "name": "Leon" },
+        { "name": "Annie" },
+        { "name": "Andrea" },
+        { "name": "pollirrata"}
+    ],
+    "files": [
+        "jquery.paginateTable.js"
+    ]
+}
+

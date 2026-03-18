@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/seo-it-in.ru/webstat"
+AuthUserFile /var/www/u8895696/data/etc/9606320.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

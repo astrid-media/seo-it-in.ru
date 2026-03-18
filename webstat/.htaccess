@@ -1,0 +1,3 @@
+DirectoryIndex index.html
+<Limit GET POST>
+</Limit>

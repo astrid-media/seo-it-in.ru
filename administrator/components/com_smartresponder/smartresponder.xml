@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5">
+    <name>Smartresponder</name>
+    <creationDate>August, 2013</creationDate>
+    <author>Smartresponder</author>
+    <authorEmail>jobs@user-support.ru</authorEmail>
+    <authorUrl>http://www.smartresponder.ru</authorUrl>
+    <copyright>(c)2013 All rights reserved.</copyright>
+    <license>GPLv3</license>
+    <version>2.0</version>
+    <description>Smartresponder Integration</description>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>smartresponder.php</filename>
+    </files>
+    <administration>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>smartresponder.php</filename>
+			<filename>smartresponder_phases.php</filename>
+			<filename>smartresponder.css</filename>
+			<filename>smartresponder.js</filename>
+			<filename>form.html</filename>
+            <filename>for_form.html</filename>
+            <filename>for_form.css</filename>
+            <filename>for_form.js</filename>
+			<folder>img</folder>
+			<folder>include</folder>
+        </files>
+    </administration>
+</extension>

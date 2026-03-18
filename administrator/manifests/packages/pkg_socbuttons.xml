@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension version="1.7" type="package" method="upgrade">
+	<name>Socbuttons</name>
+	<author></author>
+	<creationDate>February 2012</creationDate>
+	<url></url>
+	<copyright>Copyright (C) 2012 tallib. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.5</version>
+	<packagename>socbuttons</packagename>
+	<packager></packager>
+	<packagerurl></packagerurl>
+	<description>
+		<![CDATA[Installed Plugin SocButtons allows you to display in the articles buttons such social networks:<br/><br/>*Google +1<br/>*Facebook<br/>*Twitter<br/>*LinkedIn<br/>*Vkontakte<br/>*Ya.ru<br/>*Odnoklassniki.ru<br/>*My.mail.ru<br/><br/><br/>]]>
+	</description>
+	<files folder="packages">
+		<file type="plugin" id="socbuttons" group="system">plg_system_socbuttons_v15_J25.zip</file>
+		<file type="plugin" id="socbuttons" group="content">plg_socbuttons_v15_J25.zip</file>
+	</files>
+</extension>

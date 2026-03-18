@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+	<name>Yandex Site Search Pinger</name>
+	<creationDate>March 7th, 2013</creationDate>
+	<version>1.3</version>
+	<author>ООО "Яндекс" / YANDEX LLC</author>
+	<authorEmail></authorEmail>
+	<authorUrl>http://www.yandex.ru/</authorUrl>
+	<description>
+		Плагин оповещает сервис Яндекс.Поиск для сайта о новых и измененных документах
+	</description>
+	<copyright>Copyright(c) ООО "Яндекс" / YANDEX LLC</copyright>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<files>
+	  <filename plugin="pinger">pinger.php</filename>
+  	</files>
+        <config>
+            <fields name="params">
+                <fieldset name="basic">
+                    <field  name="yakey" type="text" size="50" default="__YAKEY__" label="Ключ" description="" />
+                    <field  name="yalogin" type="text" size="50" default="__YALOGIN__" label="Логин" description="" />
+                    <field  name="yasearchid" type="text" size="50" default="__YASEARCHID__" label="ID поиска" description="" />
+                    <field  name="message" type="textarea" default="Пока не было отправлено ни одного пинга" description="" rows="5" cols="50" label="Сообщение о Статусе плагина" />
+		    <field name="pluginid" type="hidden" size="50" default="2" description="" label="ID плагина" />
+                </fieldset>
+            </fields>
+        </config>
+</extension>

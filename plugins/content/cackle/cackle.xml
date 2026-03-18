@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+<name>Cackle</name>
+	<author>Cackle</author>
+	<creationDate>Jul 2013</creationDate>
+	<copyright>Cackle</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@cackle.me</authorEmail>
+	<authorUrl>http://cackle.me</authorUrl>
+	<version>1.0</version>
+	<description>PLG_CACKLE_DESCRIPTION</description>
+	<scriptfile>sql.php</scriptfile>
+	<files>
+		<filename plugin="cackle">cackle.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>cackle</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="siteId" type="text" label="PLG_CACKLE_SITEID_LABEL" description="PLG_CACKLE_SITEID_DESCRIPTION" default="siteId"/>
+				<field name="acountApiKey" type="text" label="PLG_CACKLE_ACOUNTAPIKEY_TITLE" description="PLG_CACKLE_ACOUNTAPIKEY_DESCRIPTION" default=""/>	
+				<field name="siteApiKey" type="text" label="PLG_CACKLE_SITEAPIKEY_TITLE" description="PLG_CACKLE_SITEAPIKEY_DESCRIPTION" default=""/>
+				<field name="sso" type="radio" default="0" label="PLG_CACKLE_SSO_TITLE" description="PLG_CACKLE_SSO_DESCRIPTION">
+                    <option value="1">PLG_CACKLE_ENABLE</option>
+                    <option value="0">PLG_CACKLE_DISABLE</option>
+                </field>
+                <field name="enableCounter" type="radio" default="1" label="PLG_CACKLE_ENABLE_COUNTER" description="PLG_CACKLE_COUNTER_DESCRIPTION">
+				  <option value="1">PLG_CACKLE_ENABLE</option>
+				  <option value="0">PLG_CACKLE_DISABLE</option>
+				</field>
+				<field name="categories" type="category" extension='com_content' default="0" multiple="multiple" label="PLG_CACKLE_CATEGORY_LABEL" description="PLG_CACKLE_CATEGORY_DESCRIPTION"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,516 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201405 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.seo-it-in.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1992                
+POS_TIME 2678                
+POS_VISITOR 15185               
+POS_DAY 17716               
+POS_DOMAIN 3475                
+POS_LOGIN 3707                
+POS_ROBOT 3862                
+POS_WORMS 4625                
+POS_EMAILSENDER 4756                
+POS_EMAILRECEIVER 4899                
+POS_SESSION 17802               
+POS_SIDER 17998               
+POS_FILETYPES 5034                
+POS_DOWNLOADS 5297                
+POS_OS 5368                
+POS_BROWSER 5510                
+POS_SCREENSIZE 6111                
+POS_UNKNOWNREFERER 6185                
+POS_UNKNOWNREFERERBROWSER 6355                
+POS_ORIGIN 6520                
+POS_SEREFERRALS 6662                
+POS_PAGEREFS 6838                
+POS_SEARCHWORDS 8061                
+POS_KEYWORDS 9073                
+POS_MISC 2341                
+POS_ERRORS 9729                
+POS_CLUSTER 3563                
+POS_SIDER_404 9887                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140601000002 7665 1436131 12730699471695
+FirstTime 20140531001555
+LastTime 20140531235806
+LastUpdate 20140601000507 132 0 131 0 0
+TotalVisits 69                  
+TotalUnique 59                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 62                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 65 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 44 1368129 866 868 3025415
+1 3 4 74949 991 1010 3632249
+2 5 42 1113396 959 963 3084002
+3 2 2 4810 825 827 2729308
+4 0 0 0 4 4 104919
+5 16 65 1679951 4 6 101754
+6 3 3 4810 5 6 140932
+7 6 6 80015 9 11 195074
+8 0 0 0 14 14 315583
+9 4 41 1136993 5 6 112222
+10 1 39 907219 3 6 38129
+11 0 0 0 26 32 970452
+12 7 124 4075230 8 76 3324593
+13 7 45 1382892 29 47 1002366
+14 3 42 1162909 5 6 106273
+15 6 82 2153275 56 80 293704
+16 6 124 3860441 11 17 257471
+17 6 89 2707822 6 40 1709275
+18 40 292 4458955 43 92 2634972
+19 257 1059 10344171 79 125 1614634
+20 108 943 11313823 25 38 319789
+21 16 109 2820090 18 55 1100955
+22 11 41 633189 4 8 108674
+23 12 84 3646785 10 47 1470056
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 525 3280 54929854
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+no_user_agent 2460 12904283 20140531232853 1
+feedfetcher\-google 172 8311466 20140531205706 0
+yandex 79 1942266 20140531235423 2
+bot[\s_+:,\.\;\/\\-] 44 1049143 20140531231502 12
+wordpress 32 752656 20140531210034 0
+java\/[0-9] 23 803653 20140531114223 0
+feedburner 16 136400 20140531214326 0
+googlebot 14 406966 20140531233824 1
+python 11 368726 20140531163032 0
+facebook 3 110850 20140531235101 0
+ng\/1\. 2 32934 20140531155225 0
+unknown 2 2770 20140531202546 2
+robot 2 70159 20140531141431 0
+favicon 1 32934 20140531124600 0
+mj12bot 2 34214 20140531120656 1
+msnbot\-media 2 31171 20140531221445 1
+nutch 2 2770 20140531104842 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 335 607032 0 0
+png 1181 1465968 0 0
+otf 1 47984 0 0
+php 242 6718441 0 0
+html 156 3480798 0 0
+js 765 5540783 0 0
+jpg 433 29249790 0 0
+jpeg 28 4572261 0 0
+Unknown 126 3217880 0 0
+gif 13 28917 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 22 0 30470
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 75
+linuxandroid 76
+winlong 2
+winxp 240
+win2000 1
+linuxubuntu 2
+Unknown 5
+winvista 150
+win7 2729
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 31
+msie6.0 4
+firefox3.0.7 23
+chrome35.0.1916.138 38
+chrome34.0.1847.137 1
+chrome24.0.1309.0 18
+firefox26.0 1
+chrome34.0.1847.114 38
+chrome5.0.375.99 3
+firefox21.0 9
+firefox29.0 390
+chrome31.0.1650.63 41
+chrome32.0.1700.107 1
+opera9.80 141
+chrome23.0.1271.17 2
+chrome35.0.1916.114 369
+chrome32.0.1700.102 36
+mozilla 39
+chrome33.0.1750.117 143
+chrome26.0.1410.64 1
+chrome32.0.1700.76 15
+firefox22.0 9
+msie7.0 2
+firefox6.0 14
+chrome32.0.1700.900 39
+chrome33.0.1750.154 1812
+msie9.0 2
+firefox3.6.10 1
+chrome23.0.1271.97 1
+firefox27.0 46
+Unknown 5
+safari 36
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+visionutils/0.2 20140531235111
+Project1.exe 20140531134751
+NerdyBot 20140531182841
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+visionutils/0.2 20140531235111
+Project1.exe 20140531134751
+NerdyBot 20140531182841
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 64 104
+From1 0 0
+From2 8 8
+From3 177 723
+From4 276 2445
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 1 1
+yandex 6 6
+alexa 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 19
+http://test.seo-it-in.ru/administrator/index.php 90 275
+http://test.seo-it-in.ru 34 352
+http://test.seo-it-in.ru/installation/index.php 17 50
+http://test.seo-it-in.ru/administrator/ 4 12
+http://wpnew.ru/lichnoe/puteshestvia/evrotur-2.html 4 4
+http://test.seo-it-in.ru/skachat-infoprodukty 4 4
+http://isif-life.ru/blogovedenie/rezultaty-pervogo-oprosa-auditorii-isif-life-ru.html 3 3
+http://test.seo-it-in.ru/index.php/skachat-infoprodukty 3 3
+http://subscribe.ru/group/seo-poiskovaya-optimizatsiya/6745869/ 3 3
+http://subscribe.ru/group/sozdat-svoj-sajt-mechta-kazhdogo-chelovekakotoryij-hotya-byi-2-3-raza-zahodil-v-internet/6745853/ 3 3
+http://vk.com/controlstyle 1 1
+http://test.seo-it-in.ru/ob-avtore 2 2
+http://good-seo.ru/prodolzhayu-eksperiment-s-futbolnym-sajtom/ 1 1
+http://seoshnic.ru 1 1
+http://subscribe.ru/group/besplatnaya-raskrutka-sajtovbesplatno-i-byistro/6745848/ 2 2
+http://m.vk.com/away.php 1 1
+http://vk.com/club63959855 1 1
+http://test.seo-it-in.ru/index.php/ob-avtore 3 4
+http://subscribe.ru/group/besplatnaya-raskrutka-sajtovbesplatno-i-byistro/ 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+%d0%bf%d1%80%d0%be%d0%b2%d0%b5%d1%80%d0%b8%d1%82%d1%8c+%d0%ba%d0%b0%d1%80%d1%82%d0%b8%d0%bd%d0%ba%d1%83+%d0%bd%d0%b0+%d1%83%d0%bd%d0%b8%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d1%81%d1%82%d1%8c+%d0%b2+%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81 1
+%d0%bf%d1%80%d0%be%d0%b2%d0%b5%d1%80%d0%b8%d1%82%d1%8c+%d0%b8%d0%b7%d0%be%d0%b1%d1%80%d0%b0%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5+%d0%bd%d0%b0+%d1%83%d0%bd%d0%b8%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d1%81%d1%82%d1%8c+%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81 1
+%d0%bf%d0%be%d0%b2%d1%82%d0%be%d1%80%d1%8f%d1%8e%d1%89%d0%b8%d0%b5%d1%81%d1%8f+%d1%81%d0%bb%d1%8d%d1%88%d0%b8+%d0%b2+%d1%81%d1%82%d1%80%d0%be%d0%ba%d0%b5+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0+htaccess 1
+%d0%ba%d0%b0%d0%ba+%d0%bf%d1%80%d0%be%d0%b2%d0%b5%d1%80%d0%b8%d1%82%d1%8c+%d0%b0%d0%b2%d1%82%d0%be%d1%80%d1%81%d1%82%d0%b2%d0%be+%d0%b2+%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 14
+%d0%bf%d1%80%d0%be%d0%b2%d0%b5%d1%80%d0%b8%d1%82%d1%8c 3
+%d0%b2 3
+%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81 3
+%d0%bd%d0%b0 2
+%d1%83%d0%bd%d0%b8%d0%ba%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d1%81%d1%82%d1%8c 2
+%d0%ba%d0%b0%d1%80%d1%82%d0%b8%d0%bd%d0%ba%d1%83 1
+htaccess 1
+%d1%81%d0%bb%d1%8d%d1%88%d0%b8 1
+%d1%81%d1%82%d1%80%d0%be%d0%ba%d0%b5 1
+%d0%bf%d0%be%d0%b2%d1%82%d0%be%d1%80%d1%8f%d1%8e%d1%89%d0%b8%d0%b5%d1%81%d1%8f 1
+%d0%b8%d0%b7%d0%be%d0%b1%d1%80%d0%b0%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5 1
+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0 1
+%d0%b0%d0%b2%d1%82%d0%be%d1%80%d1%81%d1%82%d0%b2%d0%be 1
+%d0%ba%d0%b0%d0%ba 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 1 20942
+302 1 0
+206 22 1051022
+303 1303 0
+500 5 3755
+301 40 9272
+404 79 247749
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 75
+/modules/mod_system/mod_system.php 1 http://seo-it-in.ru/modules/mod_system/mod_system.php
+/user 1 -
+/admin.php 1 -
+/components/com_banners/models/sys.php 1 http://seo-it-in.ru/components/com_banners/models/sys.php
+/images/plagmain.php 1 http://seo-it-in.ru/images/plagmain.php
+/admin/login.php 1 -
+/templates/seo/jquery.min.map 1 http://seo-it-in.ru/
+/images/stcchatsc.php 1 http://seo-it-in.ru/images/stcchatsc.php
+/images/chahsdetesc.php 1 http://seo-it-in.ru/images/chahsdetesc.php
+/manager/templates/default/css/login-min.css 1 -
+/installation/index.php 1 http://test.seo-it-in.ru/installation/index.php
+/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/sys.php 1 http://seo-it-in.ru/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/sys.php
+/admin/index.php 1 -
+/manager/media/script/mootools/mootools.js 1 -
+/administrator/img.php 1 http://seo-it-in.ru/administrator/img.php
+/templates/maket_seo_v8/'%20+%20getFullImgSrc($(images[current]).attr( 1 -
+/images/stcchatcc.php 1 http://seo-it-in.ru/images/stcchatcc.php
+/templates/maket_seo_v8/,data:n}).done(function(e){o=arguments,s.html(i 1 -
+/images/grener.php 1 http://seo-it-in.ru/images/grener.php
+/blogwp/wp-login.php 1 -
+/bitrix/admin/index.php 1 -
+/1321fg5151pasd.php 1 -
+/manager/templates/default/images/style/modx-logo-header.png 1 -
+/administrator/templates/hathor/html/com_menus/thumbs.php 1 http://seo-it-in.ru/administrator/templates/hathor/html/com_menus/thumbs.php
+/media/editors/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/sys.php 1 http://seo-it-in.ru/media/editors/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/sys.php
+/ya.php 1 -
+/administrator/components/com_extplorer/libraries/geshi/geshi/autoit.php 1 http://seo-it-in.ru/administrator/components/com_extplorer/libraries/geshi/geshi/autoit.php
+/netcat/admin/skins/default/css/style.css 1 -
+/bitrix/js/main/core/core.css 1 -
+/images/cms/admin/mac/common/butterfly.png 1 -
+/components/com_aicontactsafe/controllers/sys.php 1 http://seo-it-in.ru/components/com_aicontactsafe/controllers/sys.php
+/modules/mod_araticlhess/mod_araticlhess.php 1 http://seo-it-in.ru/modules/mod_araticlhess/mod_araticlhess.php
+/administrator/components/com_messages/views/messages/thumbs.php 1 http://seo-it-in.ru/administrator/components/com_messages/views/messages/thumbs.php
+/wp-login.php 4 -
+/templates/maket_seo_v8/],_default:b.support.htmlSerialize 1 -
+/components/com_banners/helpers/sys.php 1 http://seo-it-in.ru/components/com_banners/helpers/sys.php
+/modules/mod_ariimageslider/mod_ariimageslider.php 1 http://seo-it-in.ru/modules/mod_ariimageslider/mod_ariimageslider.php
+/manager/media/style/MODxCarbon/images/misc/logo.png 1 -
+/manager/media/style/MODxCarbon/images/misc/login-logo.png 1 -
+/netcat/admin/skins/default/css/login.css 1 -
+/manager/templates/default/images/restyle/headers.jpg 1 -
+/bitrix/themes/.default/images/auth_pict.gif 1 -
+/modules/mod_ariimageslidersa/mod_ariimageslidersa.php 1 http://seo-it-in.ru/modules/mod_ariimageslidersa/mod_ariimageslidersa.php
+/modules/mod_fxprev/libraries/archives.php 1 -
+/libraries/joomla/html/parameter/element/thumbs.php 1 http://seo-it-in.ru/libraries/joomla/html/parameter/element/thumbs.php
+/images/cmatesc.php 1 http://seo-it-in.ru/images/cmatesc.php
+/templates/maket_seo_v8/!=typeof%20e||Tt.test(e)||!b.support.htmlSerialize&&mt.test(e)||!b.support.leadingWhitespace&&yt.test(e)||At[(bt.exec(e)||[ 1 -
+/modules/mod_s/mod_s.php 1 http://seo-it-in.ru/modules/mod_s/mod_s.php
+/images/mainplag.php 1 http://seo-it-in.ru/images/mainplag.php
+/modules/system/system.base.css 1 -
+/images/cgesderxc.php 1 http://seo-it-in.ru/images/cgesderxc.php
+/images/404.php 1 http://seo-it-in.ru/images/404.php
+/netcat/admin/skins/default/img/logo.png 1 -
+/modules/system/system.css 1 -
+/images/tppp.php 1 http://seo-it-in.ru/images/tppp.php
+/bitrix/themes/.default/adminstyles.css 1 -
+/styles/skins/mac/design/css/style.css 1 -
+/components/com_newsfeeds/views/newsfeed/tmpl/thumbs.php 1 http://seo-it-in.ru/components/com_newsfeeds/views/newsfeed/tmpl/thumbs.php
+/components/com_rsform/controller/functions.php 1 http://seo-it-in.ru/components/com_rsform/controller/functions.php
+/uploads/web-info.php 1 http://seo-it-in.ru/uploads/web-info.php
+/modules/mod_articless/mod_articless.php 1 http://seo-it-in.ru/modules/mod_articless/mod_articless.php
+/modules/mod_systemzz/mod_systemzz.php 1 -
+/installed 1 -
+/wp-admin/images/wordpress-logo.png 1 -
+/templates/maket_seo_v8/jquery.min.map 1 http://seo-it-in.ru/
+/images/maink.php 1 http://seo-it-in.ru/images/maink.php
+/images/configcs.php 1 http://seo-it-in.ru/images/configcs.php
+/manager/media/style/MODxCarbon/style.css 1 -
+/wp 1 http://seo-it-in.ru/wp
+/images/plegmain.php 1 http://seo-it-in.ru/images/plegmain.php
+/media/system/js/mootools.js 1 -
+/wp-admin/css/wp-admin.css 1 -
+/tmp/j.php 1 http://seo-it-in.ru/tmp/j.php
+/conshell.php 1 http://seo-it-in.ru/conshell.php
+/index.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 62
+89.169.210.138 400 1927 15005333 20140531222034
+93.179.69.2 14 14 33670 20140531071429
+91.79.186.95 12 142 3403624 20140531210251
+178.19.251.155 11 80 3393488 20140531235806
+188.226.145.247 9 9 296406 20140531052519
+159.255.2.178 6 6 28011 20140531143305
+91.213.93.23 6 6 28011 20140531120210
+37.26.8.39 4 4 18674 20140531220357
+93.190.204.7 3 53 1557211 20140531121825
+109.172.66.219 2 43 1237502 20140531212626
+82.200.27.170 1 39 1309504 20140531175245
+109.234.156.66 1 1 32934 20140531054527
+178.71.251.97 1 39 1309504 20140531131841
+148.251.111.155 1 1 23857 20140531233227
+208.43.251.182 1 1 21780 20140531133602
+46.52.233.188 1 40 1153572 20140531145351
+81.198.105.90 2 40 1353982 20140531001603
+188.231.196.207 2 2 9337 20140531002538
+142.0.132.202 2 2 56791 20140531215946
+188.17.74.32 1 39 1161524 20140531215346
+54.198.11.212 1 14 198818 20140531053123
+5.166.7.54 1 38 1099249 20140531092958
+81.88.214.133 1 40 1099779 20140531123936
+188.162.38.73 1 36 1074701 20140531182716
+95.153.192.116 1 36 861193 20140531153104
+37.235.175.61 1 37 1072799 20140531050045
+27.159.210.121 1 1 32934 20140531071620
+217.66.159.126 1 39 1309504 20140531162745
+81.177.6.221 1 1 0 20140531152130
+185.13.136.86 2 47 1354841 20140531172826
+173.252.79.112 0 1 76480 
+79.191.160.34 2 2 9337 20140531172322
+31.23.203.47 1 42 1225617 20140531150518
+173.252.79.115 0 1 76480 
+107.170.210.108 1 1 32934 20140531094218
+37.193.138.69 2 2 4810 20140531094834
+84.17.27.174 1 1 32934 20140531134751
+94.41.235.201 1 1 34140 20140531160639
+78.111.187.235 1 36 861193 20140531161059
+208.43.225.85 1 1 45362 20140531202552
+148.251.7.69 1 1 0 20140531065121
+162.253.126.108 1 1 32325 20140531151927
+192.163.195.169 1 1 32934 20140531074043
+94.41.217.58 1 1 34140 20140531154237
+46.39.243.105 1 26 581043 20140531204308
+91.202.129.161 2 44 1397857 20140531182622
+93.188.40.240 2 46 1576821 20140531160930
+95.105.30.238 1 1 34140 20140531173506
+91.200.12.4 1 1 41250 20140531053758
+95.31.67.224 1 38 1099249 20140531021520
+91.239.27.99 1 1 32934 20140531165315
+107.178.217.104 1 1 32934 20140531182841
+95.28.130.209 2 60 1747425 20140531202113
+66.249.81.178 1 37 2113784 20140531201014
+46.46.65.37 1 41 1310034 20140531181910
+95.188.206.25 1 42 1348447 20140531194828
+173.252.80.112 0 1 76480 
+192.81.219.93 1 9 184395 20140531121401
+54.87.124.10 1 1 32934 20140531050814
+91.240.191.50 1 38 861723 20140531102618
+84.51.92.191 1 23 421185 20140531224840
+195.208.2.36 1 1 0 20140531152048
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20140531 525 3280 54929854 69
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+5mn-15mn 2
+15mn-30mn 1
+0s-30s 59
+30s-2mn 2
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/administrator/index.php 219 6590501 15 15
+/ 153 3433059 25 20
+/kejsy-po-prodvizheniyu/zagolovok-stranitsy-teg-title 28 787259 5 8
+/skachat-infoprodukty 23 278287 2 2
+/prodvizhenie-v-top/kak-vyvesti-sajt-iz-pod-filtra-yandeksa 17 672810 9 7
+/installation/index.php 16 81787 0 0
+/ob-avtore 16 455178 0 1
+/skachat-infoprodukty/baza-blogov-dlya-kommentirovaniya 6 129826 0 0
+/news-search-engine 4 71991 0 0
+/administrator/components/com_joomlaupdate/restore.php 4 13828 0 0
+/kejsy-po-prodvizheniyu/prodazha-jolok-na-novyj-god-primer-sezonnosti 1 45468 1 1
+/index.php/ob-avtore 3 22007 0 0
+/2.php 1 32325 1 1
+/rabota-nad-soboj/kak-planirovat-dela-i-nichego-ne-zabyvat 1 34394 0 1
+/karta 3 63972 0 0
+/raskrutka-bloga/sdelajte-svoj-blog-poleznym-dlya-lyudej 1 45362 1 1
+/optimizatsiya-sajta/nastraivaem-fajl-htaccess-dlya-pravilnoj-indeksatsii-sajta 3 106208 2 2
+/prodvizhenie-v-top/povyshaem-povedencheskie-faktory-s-pomoshchyu-onlajn-konsultanta 1 28458 0 0
+/installation/gpl.html 1 20396 0 0
+/raskrutka-bloga 1 19853 0 0
+/administrator/ 2 27343 0 0
+/templates/beez_20/fonts/TitilliumMaps29L002.otf 1 47984 0 0
+/prodvizhenie-v-top 2 43138 0 0
+/news-search-engine/otmena-ssylok-dlya-kommercheskikh-zaprosov 2 74974 0 0
+/raskrutka-bloga/plyusy-kommentirovaniya-chuzhikh-blogov 1 34891 0 0
+/index.php/skachat-infoprodukty 3 22194 0 0
+/kejsy-po-prodvizheniyu 2 35664 0 0
+/rabota-nad-soboj 1 18885 0 1
+/programmy-veb-mastera/xenu-proverka-iskhodyashchikh-i-bitykh-ssylok-na-sajte 1 33739 0 1
+/optimizatsiya-sajta/kak-proverit-kartinku-na-unikalnost 3 90902 3 3
+/templates/system/component.php 1 0 1 1
+/templates/beez5/error.php 1 0 1 1
+/v-off-line/v-novyj-2014-god-budem-pakhat-kak-loshadi 3 102420 3 3
+END_SIDER
