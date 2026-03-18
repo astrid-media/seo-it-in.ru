@@ -50,7 +50,6 @@ Disallow: */en/*
 Disallow: /*?searchid=*
 Disallow: /images/igallery/resized/
 Disallow: /?tp=1
-Disallow: /?
 Sitemap: https://seo-it-in.ru/sitemap.xml
 
 User-agent: Yandex
